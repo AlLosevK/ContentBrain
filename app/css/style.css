@@ -34,35 +34,31 @@
   padding: 0;
   font-family: "Lato", sans-serif;
   font-size: 36px;
-  color: #fff;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 0 auto;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto; }
+  color: #fff; }
 
 .logo {
   background-color: transparent;
   margin: 0;
   padding: 0;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 0 auto;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
   .logo__title {
     font-size: 20px;
     color: #fff;
-    text-transform: uppercase;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 0 auto;
-        -ms-flex: 1 0 auto;
-            flex: 1 0 auto; }
+    text-transform: uppercase; }
   .logo__img {
     display: block;
     height: 28px;
@@ -74,7 +70,4 @@
   font-weight: bold;
   text-transform: uppercase;
   color: #fff;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 0 auto;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto; }
+  font-family: "Lato", sans-serif; }
