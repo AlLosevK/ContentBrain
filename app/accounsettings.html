@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Campaigns - ContentBrain</title>
+    <title>CoreTopic - ContentBrain</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body class="container-body">
     <header class="header">
         <div class="container container-wrap">
             <div class="navigation">
-                <span class="navigation__title">campaigns</span>
-                <a href="login.html" class="navigation__back">
+                <span class="navigation__title">account settings</span>
+                <a href="campaigns.html" class="navigation__back">
                     <svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="8px">
 <path fill-rule="evenodd"  fill="rgb(214, 141, 255)"
  d="M16.000,4.880 L3.059,4.880 L4.778,6.639 L3.446,7.989 L0.737,5.217 L1.070,4.880 L0.726,4.880 L0.726,3.856 L0.012,3.132 L3.064,0.012 L4.493,1.460 L3.151,2.832 L16.000,2.832 L16.000,4.880 Z"/>
 </svg>
-                    <span>login</span>
+                    <span>previous page</span>
                 </a>
             </div>
             <div class="logo">
@@ -35,15 +37,26 @@
             </div>
         </div>
     </header>
-    <main class="container campaigns">
-        <div class="container-coll">
-            <h2 class="campaigns__tittle">projects</h2>
-            <div class="projects container-wrap">
-                <a href="newproject.html" class="projects__item projects__new">
-                   <div class="pseudo pseudo-plus">New Project</div>
-                </a>
-                <a href="dashboard.html" class="projects__item">Project #1</a>
-                <a href="dashboard.html" class="projects__item">Project #2</a>
+    <main class="container accinfo">
+        <div class="container-wrap account">
+            <div class="container-coll avatar">
+                <div class="avatar__img">
+                    <img src="/img/avatar.png" alt="Avatar">
+                </div>
+                <div class="avatar__add">
+                    <input type="file" class="avatar__add-file" />
+                    <div class="avatar__add-fake pseudo pseudo-photo">
+                        <input placeholder="change image">
+                    </div>
+                </div>
+            </div>
+            <div class="container-coll info">
+                <form action="" class="descr">
+                    <input type="text" placeholder="john smith" class="descr__name descr__item">
+                    <input type="email" placeholder="client@mail.com" class="descr__email descr__item">
+                    <input type="password" value="00000000000" class="descr__pass descr__item">
+                    <input type="text" placeholder="add url" class="descr__url descr__item">
+                </form>
             </div>
         </div>
     </main>
@@ -57,5 +70,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
+
 </html>

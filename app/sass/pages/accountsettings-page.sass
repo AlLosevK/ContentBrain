@@ -1,0 +1,70 @@
+.accinfo
+    padding: 5% 0 0
+    
+.account
+    justify-content: center
+    align-items: flex-start
+    
+.avatar
+    width: 32%
+    &__img
+        width: 100%
+        & img
+            display: block
+            margin: 0 auto
+            width: 87%
+            background-size: cover
+            border-radius: 3%
+    &__add
+        position: relative
+        &-file
+            position: relative
+            text-align: right
+            opacity: 0
+            z-index: 2
+        &-fake
+            position: absolute
+            top: 0px
+            left: 0px
+            z-index: 1
+            & input
+                display: block
+                position: relative
+                border: none
+                background-color: #dfdfdf
+                font-family: $fontLatos
+                font-size: 14px
+                font-weight: bold
+                text-transform: uppercase
+                color: #989898
+                border-radius: 60px
+                padding: 7.5% 5% 7.5% 15%
+                text-align: center
+                margin-bottom: 1%    
+    
+.info
+    width: 43%
+
+.descr
+    width: 100%
+    text-align: center
+    &__item
+        display: block
+        border: none
+        border-radius: 60px
+        text-align: center
+        font-family: $fontLatos
+        font-size: 18px
+        font-weight: bold
+        color: #989898
+        background-color: #dfdfdf
+        width: 93%
+        padding: 4.5% 2%
+        text-transform: uppercase
+        outline:none
+        margin: 0 auto 6%
+        &:focus
+            outline: 0;
+            outline-offset: 0;
+    &__url
+        margin-bottom: 0
