@@ -1,0 +1,41 @@
+.pseudo
+    display: block
+    width: 100%
+    height: 100%
+    position: relative
+    &-email
+        &:before
+            content: ''
+            position: absolute
+            top: 30%
+            left: 9%
+            transform: translate(-50%, 0)
+            background-repeat: no-repeat
+            background-image: url('../../img/email.png')
+            width: 26px
+            height: 16px
+            z-index: 1
+    &-pass
+        &:before
+            content: ''
+            position: absolute
+            top: 22%
+            left: 9%
+            transform: translate(-50%, 0)
+            background-repeat: no-repeat
+            background-image: url('../../img/lock.png')
+            width: 17px
+            height: 24px
+            z-index: 50
+    &-plus
+        &:before
+            content: ''
+            position: absolute
+            top: -140%
+            left: 50%
+            transform: translate(-50%, 0)
+            background-repeat: no-repeat
+            background-image: url('../../img/new_project.png')
+            width: 34px
+            height: 34px
+            z-index: 50
