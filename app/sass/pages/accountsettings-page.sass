@@ -9,6 +9,7 @@
     width: 32%
     &__img
         width: 100%
+        margin-bottom: 5%
         & img
             display: block
             margin: 0 auto
@@ -17,30 +18,33 @@
             border-radius: 3%
     &__add
         position: relative
-        &-file
-            position: relative
-            text-align: right
-            opacity: 0
-            z-index: 2
         &-fake
-            position: absolute
-            top: 0px
-            left: 0px
-            z-index: 1
-            & input
-                display: block
-                position: relative
-                border: none
-                background-color: #dfdfdf
-                font-family: $fontLatos
-                font-size: 14px
-                font-weight: bold
-                text-transform: uppercase
-                color: #989898
-                border-radius: 60px
-                padding: 7.5% 5% 7.5% 15%
-                text-align: center
-                margin-bottom: 1%    
+            display: none
+        &-file
+            display: block;
+            position: relative;
+            background-color: #dfdfdf;
+            font-family: "Lato", sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #989898;
+            -webkit-border-radius: 60px;
+            border-radius: 60px;
+            padding: 12% 15% 8% 28%;
+            text-align: center;
+            margin: 0 0 5% 0
+            &:before
+                content: ''
+                position: absolute
+                top: 40%
+                left: 20%
+                transform: translate(-50%, 0)
+                width: 18px
+                height: 18px
+                background-repeat: no-repeat
+                background-image: url('../../img/photo.png')
+        
     
 .info
     width: 43%

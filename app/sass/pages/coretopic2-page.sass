@@ -1,0 +1,110 @@
+.newtopics2
+    &__tittle
+        margin-bottom: 1%
+    &__item
+        display: block
+        border: none
+        border-radius: 60px
+        text-align: center
+        font-family: $fontLatos
+        font-size: 18px
+        font-weight: bold
+        color: #989898
+        background-color: #dfdfdf
+        width: 96%
+        padding: 5% 2%
+        text-transform: uppercase
+        outline:none
+        &:focus
+            outline: 0;
+            outline-offset: 0;
+    &__name
+        margin: 0 0 4%
+    &__check
+        color: #fff
+        width: 96%
+        position: relative
+        background-color: $companyColor
+        margin-bottom: 10%
+        &:before
+            content: ''
+            position: absolute
+            top: 42%
+            left: 59%
+            transform: translate(-50%, 0)
+            width: 30px
+            height: 15px
+            background-repeat: no-repeat
+            background-image: url('../img/arrow.png')
+.topictable
+    width: 100%
+    display: -webkit-flex
+    display: -moz-flex
+    display: -ms-flex
+    display: -o-flex
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: stretch
+    &__head-row
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: stretch
+        text-align: center
+        & td
+            width: 16.66%
+            background-color: #dfdfdf
+            color: #989898
+            text-transform: uppercase
+            font-size: 16px
+            font-family: $fontLatos
+            padding: 1.5% 0
+            border-left: 2px solid  #fff
+            &:first-child
+                border-radius: 50px 0 0 50px
+            &:last-child
+                border-radius: 0 50px 50px 0
+    &__body-row
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: stretch
+        text-align: center
+        border-bottom: 2px solid  #dedede
+        padding: 1.5% 0
+        & td
+            width: 16.66%
+            font-size: 18px
+            font-weight: 400
+            color: #919191
+            font-family: $fontLatos
+    &__checkbox
+        display: none
+        box-sizing: border-box
+        &-custom
+            position: relative
+            box-sizing: border-box
+            width: 22px
+            height: 22px
+            border: 2px solid  $companyColor
+            border-radius: 5px
+            display: inline-block
+            vertical-align: middle
+            cursor: pointer
+            &:checked + .topictable__checkbox-custom:before
+                content: ""
+                display: block
+                position: absolute
+                top: 50%
+                right: 50%
+                background-color: $companyColor
+                transform: translate(-50%, 0)
