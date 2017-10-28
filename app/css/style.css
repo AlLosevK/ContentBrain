@@ -282,7 +282,7 @@ footer {
       width: 30px;
       height: 15px;
       background-repeat: no-repeat;
-      background-image: url("../../img/arrow.png"); }
+      background-image: url("../img/arrow.png"); }
 
 .campaigns__tittle {
   font-family: "Lato", sans-serif;
@@ -440,7 +440,7 @@ footer {
       width: 30px;
       height: 15px;
       background-repeat: no-repeat;
-      background-image: url("../../img/arrow.png"); }
+      background-image: url("../img/arrow.png"); }
 
 .newtopic {
   width: 40%; }
@@ -480,7 +480,7 @@ footer {
       width: 30px;
       height: 15px;
       background-repeat: no-repeat;
-      background-image: url("../../img/arrow.png"); }
+      background-image: url("../img/arrow.png"); }
 
 .newtopics2__tittle {
   margin-bottom: 1%; }
@@ -696,7 +696,7 @@ footer {
         width: 18px;
         height: 18px;
         background-repeat: no-repeat;
-        background-image: url("../../img/photo.png"); }
+        background-image: url("../img/photo.png"); }
 
 .info {
   width: 43%; }
