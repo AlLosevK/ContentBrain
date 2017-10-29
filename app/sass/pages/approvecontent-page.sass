@@ -1,4 +1,4 @@
-.newtopics2
+.approvecontent
     &__tittle
         margin-bottom: 1%
     &__navigation
@@ -20,9 +20,9 @@
             &:hover
                 text-decoration: none
                 color: #fff
-    &__row
-        justify-content: space-between
-.topictable
+        &__row
+            justify-content: space-between
+.approvetable
     width: 100%
     display: -webkit-flex
     display: -moz-flex
@@ -42,7 +42,6 @@
         flex-direction: row
         justify-content: center
         align-items: stretch
-        text-align: center
         & td
             width: 16.66%
             background-color: #dfdfdf
@@ -51,9 +50,9 @@
             font-size: 16px
             font-family: $fontLatos
             padding: 1.5% 0
-            border-left: 2px solid  #fff
             &:first-child
                 border-radius: 50px 0 0 50px
+                padding-left: 3%
             &:last-child
                 border-radius: 0 50px 50px 0
     &__body-row
@@ -65,7 +64,6 @@
         flex-direction: row
         justify-content: center
         align-items: stretch
-        text-align: center
         border-bottom: 2px solid  #dedede
         padding: 1.5% 0
         & td
@@ -74,25 +72,5 @@
             font-weight: 400
             color: #919191
             font-family: $fontLatos
-    &__checkbox
-        display: none
-        &:checked + label:before
-            background-color: $companyColor
-            background-image: url('../img/checkmark.png')
-            background-repeat: no-repeat
-            background-position: 35% 45%
-        &-custom
-            padding-left: 33px
-            position: relative
-            &:before
-                content: ''
-                position: absolute
-                top: 50%
-                left: 0
-                transform: translateY(-50%)
-                border-radius: 5px
-                border: 2px solid $companyColor
-                width: 22px
-                height: 22px
-            &:hover
-                cursor: pointer
+            &:first-child                
+                padding-left: 3%
