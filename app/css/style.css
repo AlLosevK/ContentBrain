@@ -46,7 +46,7 @@
 .container {
   max-width: 1174px;
   margin: 0 auto;
-  padding: 0; }
+  padding: 0 4%; }
   .container-wrap {
     display: -webkit-flex;
     display: -moz-flex;
@@ -177,7 +177,8 @@
   .logo__title-header {
     font-size: 20px;
     color: #fff;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-right: 2%; }
   .logo__img {
     display: block;
     height: 28px;
@@ -1005,6 +1006,8 @@ footer {
         height: 18px;
         background-repeat: no-repeat;
         background-image: url("../img/photo.png"); }
+      .avatar__add-file span {
+        min-width: 120px; }
 
 .info {
   width: 43%; }
