@@ -46,7 +46,9 @@
 .container {
   max-width: 1174px;
   margin: 0 auto;
-  padding: 0 4%; }
+  padding: 0; }
+  .container-header {
+    padding: 0 4%; }
   .container-wrap {
     display: -webkit-flex;
     display: -moz-flex;
@@ -132,7 +134,7 @@
 
 .header {
   background-color: #8700d2;
-  padding: 2% 0; }
+  padding: 2% 4%; }
 
 .navigation {
   background-color: transparent;
@@ -231,6 +233,9 @@
   font-weight: bold;
   color: #a7a7a7;
   margin-bottom: 5%; }
+
+body {
+  font-family: "Lato", sans-serif; }
 
 footer {
   background-color: #ededed;
@@ -629,6 +634,134 @@ footer {
         width: 22px;
         height: 22px; }
       .topictable__checkbox-custom:hover {
+        cursor: pointer; }
+
+.newtopics3__tittle {
+  margin-bottom: 1%; }
+
+.newtopics3__navigation {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 1%; }
+  .newtopics3__navigation-item {
+    display: block;
+    color: #fff;
+    background-color: #8700d2;
+    font-weight: bold;
+    font-size: 18px;
+    -webkit-border-radius: 60px;
+            border-radius: 60px;
+    padding: 1.5% 8%;
+    text-decoration: none; }
+    .newtopics3__navigation-item:hover {
+      text-decoration: none;
+      color: #fff; }
+
+.newtopics3__row {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.subtopics {
+  width: 100%;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+  .subtopics__descr {
+    font-size: 18px;
+    font-weight: 400;
+    color: #919191;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    text-transform: none; }
+  .subtopics__navigation {
+    width: 100%; }
+
+.subtopic {
+  width: 18.5%; }
+  .subtopic__tittle {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 9% 30%;
+    color: #989898;
+    background-color: #dfdfdf;
+    -webkit-border-radius: 30px;
+            border-radius: 30px;
+    text-transform: uppercase; }
+  .subtopic__descr {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 7% 30%;
+    color: #989898;
+    border-bottom: 2px solid  #ccd5dc; }
+
+.contenttype {
+  width: 79.5%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch; }
+  .contenttype__tittle {
+    font-size: 16px;
+    font-weight: bold;
+    color: #989898;
+    width: 100%;
+    -webkit-border-radius: 30px;
+            border-radius: 30px;
+    padding: 2% 0;
+    background-color: #dfdfdf;
+    text-transform: uppercase;
+    text-align: center; }
+  .contenttype-coll {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding-left: 5%;
+    width: 33%; }
+  .contenttype__checkbox {
+    display: none; }
+    .contenttype__checkbox:checked + label:before {
+      background-color: #8700d2;
+      background-image: url("../img/checkmark.png");
+      background-repeat: no-repeat;
+      background-position: 35% 45%; }
+    .contenttype__checkbox-custom {
+      display: block;
+      padding-left: 32px;
+      position: relative;
+      font-size: 18px;
+      font-weight: 400;
+      color: #919191; }
+      .contenttype__checkbox-custom:before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+        -webkit-border-radius: 4px;
+                border-radius: 4px;
+        border: 2px solid #8700d2;
+        width: 22px;
+        height: 22px; }
+      .contenttype__checkbox-custom:hover {
         cursor: pointer; }
 
 .approvecontent__tittle {
