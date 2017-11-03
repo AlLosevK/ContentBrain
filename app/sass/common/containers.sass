@@ -15,16 +15,24 @@
         align-items: center
         flex-wrap: wrap
     &-coll
-        display: -webkit-flex
+        display: -moz-box
+        display: -ms-box
+        display: -webkit-box
+        display: box
+        -webkit-box-orient: vertical
         display: -moz-flex
         display: -ms-flex
-        display: -o-flex
+        display: -webkit-flex
         display: flex
+        -moz-flex-direction: column
+        -ms-flex-direction: column
+        -webkit-flex-direction: column
         flex-direction: column
         justify-content: space-around
         align-items: center
         position: relative
         flex-wrap: wrap
+        
     &-footer
         display: -webkit-flex
         display: -moz-flex
