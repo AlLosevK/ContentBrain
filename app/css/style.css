@@ -270,15 +270,21 @@ footer {
       outline-offset: 0; }
   .login__email {
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin: 0 0 4%;
     position: relative; }
   .login__pass {
     margin: 0 0 8%; }
 =======
+=======
+>>>>>>> parent of cf263da... Change % on em in all padding&margin
     margin: 0 auto 4%;
     position: relative; }
   .login__pass {
     margin: 0 auto 8%; }
+<<<<<<< HEAD
+>>>>>>> parent of cf263da... Change % on em in all padding&margin
+=======
 >>>>>>> parent of cf263da... Change % on em in all padding&margin
   .login__check {
     color: #fff;
