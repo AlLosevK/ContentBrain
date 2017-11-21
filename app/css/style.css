@@ -269,10 +269,17 @@ footer {
       outline: 0;
       outline-offset: 0; }
   .login__email {
+<<<<<<< HEAD
     margin: 0 0 4%;
     position: relative; }
   .login__pass {
     margin: 0 0 8%; }
+=======
+    margin: 0 auto 4%;
+    position: relative; }
+  .login__pass {
+    margin: 0 auto 8%; }
+>>>>>>> parent of cf263da... Change % on em in all padding&margin
   .login__check {
     color: #fff;
     width: 100%;
@@ -1168,3 +1175,138 @@ footer {
       outline-offset: 0; }
   .descr__url {
     margin-bottom: 0; }
+
+@-moz-document url-prefix() {
+  header.header {
+    height: 114px;
+    padding: 30px 0; }
+  main.container {
+    height: 470px !important;
+    padding-top: 45px !important;
+    margin-bottom: 20px; }
+    main.container h2 {
+      margin-bottom: 58px !important; }
+    main.container.newtopics2 {
+      height: 537px !important; }
+    main.container.newtopics3 {
+      height: 608px !important; }
+    main.container.approvecontent {
+      height: 560px !important; }
+  main.entry .container-coll {
+    height: 425px; }
+  main.entry .login {
+    height: 323px; }
+    main.entry .login .pseudo {
+      height: 23%;
+      width: 100%;
+      margin: 0; }
+      main.entry .login .pseudo:before {
+        top: 40%; }
+    main.entry .login .login__check {
+      height: 23%;
+      margin: 0; }
+  .projects {
+    height: 294px; }
+    .projects__item {
+      height: 270px;
+      padding: 40% 7%; }
+    .projects__new {
+      padding: 60% 4.5% 20%; }
+      .projects__new .pseudo-plus::before {
+        top: -62px; }
+  .newproject {
+    height: 323px; }
+    .newproject__item {
+      height: 23%; }
+  .topics {
+    height: 296px; }
+    .topics__item {
+      height: 270px;
+      padding: 35% 7% 2%; }
+    .topics__new {
+      padding: 60% 5.8% 2%; }
+      .topics__new .pseudo-plus::before {
+        top: -90%; }
+  .newtopic {
+    height: 212px; }
+    .newtopic__item {
+      height: 35%; }
+  .topictable {
+    margin-bottom: 20px; }
+    .topictable__head-row {
+      height: 60px; }
+      .topictable__head-row td {
+        padding: 30% 0; }
+  .newtopics2 {
+    height: 537px; }
+    .newtopics2 h2.newtopics2__tittle {
+      margin-bottom: 10px !important; }
+    .newtopics2 span.newtopics2__descr {
+      margin-bottom: 20px; }
+    .newtopics2__navigation {
+      height: 61px;
+      margin-bottom: 30px; }
+      .newtopics2__navigation-item {
+        height: 100%;
+        padding: 30% 8%; }
+  .newtopics3 {
+    height: 608px; }
+    .newtopics3 h2.newtopics3__tittle {
+      margin-bottom: 10px !important; }
+    .newtopics3 span.newtopics3__descr {
+      margin-bottom: 20px; }
+    .newtopics3__navigation-item {
+      padding: 19% 8%; }
+  .subtopic {
+    height: 350px; }
+    .subtopic__tittle {
+      padding: 6% 30%; }
+    .subtopic__descr {
+      padding: 4% 30%; }
+  .contenttype {
+    height: 365px; }
+    .contenttype h2.contenttype__tittle {
+      margin: 0 !important;
+      height: 56px;
+      padding: 5% 0 3%; }
+  .approvecontent {
+    height: 608px; }
+    .approvecontent h2.approvecontent__tittle {
+      margin-bottom: 10px !important; }
+    .approvecontent span.approvecontent__descr {
+      margin-bottom: 20px; }
+    .approvecontent__navigation {
+      height: 61px;
+      margin-bottom: 30px; }
+      .approvecontent__navigation-item {
+        height: 100%;
+        padding: 30% 8%; }
+  .approvetable {
+    margin-bottom: 20px; }
+    .approvetable__head-row {
+      height: 60px; }
+      .approvetable__head-row td {
+        padding: 30% 0; }
+  .approvecontent2 {
+    height: 608px; }
+    .approvecontent2 h2.approvecontent2__tittle {
+      margin-bottom: 10px !important; }
+    .approvecontent2 span.approvecontent2__descr {
+      margin-bottom: 20px; }
+    .approvecontent2__navigation {
+      height: 61px;
+      margin-bottom: 30px; }
+      .approvecontent2__navigation-item {
+        height: 100%;
+        padding: 30% 8%; }
+  .approvetable2 {
+    margin-bottom: 20px; }
+    .approvetable2__head-row {
+      height: 60px; }
+      .approvetable2__head-row td {
+        padding: 30% 0; }
+  footer {
+    height: 142px;
+    padding: 45.5px 0; }
+    footer .logo {
+      height: 51px; } }
