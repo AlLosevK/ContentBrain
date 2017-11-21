@@ -1,0 +1,3 @@
+[13-Nov-2017 06:55:27 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/technoarray/public_html/php/sma/articles_ajax.php on line 28
+[13-Nov-2017 06:58:02 America/Chicago] PHP Fatal error:  Call to undefined method simple_html_dom_node::data() in /home2/technoarray/public_html/php/sma/articles_ajax.php on line 27
+[13-Nov-2017 07:06:52 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/technoarray/public_html/php/sma/articles_ajax.php on line 29

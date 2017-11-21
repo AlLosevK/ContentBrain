@@ -1,0 +1,40 @@
+.login
+    width: 40%
+    &__item
+        display: block
+        border: none
+        border-radius: 60px
+        text-align: center
+        font-family: $fontLatos
+        font-size: 18px
+        font-weight: bold
+        color: #989898
+        background-color: #dfdfdf
+        width: 96%
+        padding: 5% 2%
+        text-transform: uppercase
+        outline:none
+        &:focus
+            outline: 0;
+            outline-offset: 0;
+    &__email
+        margin: 0 0 4%
+        position: relative
+    &__pass
+        margin: 0 0 8%
+    &__check
+        color: #fff
+        width: 100%
+        position: relative
+        background-color: $companyColor
+        margin-bottom: 10%
+        &:before
+            content: ''
+            position: absolute
+            top: 42%
+            left: 59%
+            transform: translate(-50%, 0)
+            width: 30px
+            height: 15px
+            background-repeat: no-repeat
+            background-image: url('../img/arrow.png')

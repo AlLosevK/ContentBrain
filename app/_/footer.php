@@ -1,94 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Approve Titles - ContentBrain</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
-</head>
-
-<body class="container-body">
-    <header class="header container-header">
-        <div class="container container-wrap">
-            <div class="navigation">
-                <span class="navigation__title">project</span>
-                <a href="coretopic3.html" class="navigation__back">
-                    <svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="8px">
-<path fill-rule="evenodd"  fill="rgb(214, 141, 255)"
- d="M16.000,4.880 L3.059,4.880 L4.778,6.639 L3.446,7.989 L0.737,5.217 L1.070,4.880 L0.726,4.880 L0.726,3.856 L0.012,3.132 L3.064,0.012 L4.493,1.460 L3.151,2.832 L16.000,2.832 L16.000,4.880 Z"/>
-</svg>
-                    <span>select types of content</span>
-                </a>
-            </div>
-            <div class="logo">
-                <h1 class="logo__title-header">content brain </h1>
-                <img src="img/logo.png" alt="Logo" class="logo__img">
-            </div>
-            <div class="setting">
-                <a href="accounsettings.html">
-                   <svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px"><path fill-rule="evenodd"  fill="rgb(214, 141, 255)"
- d="M17.894,9.824 C17.888,9.821 17.883,9.817 17.878,9.814 L16.612,10.421 C16.132,10.552 15.635,10.796 15.450,11.191 L15.084,11.978 C14.900,12.373 15.139,12.931 15.387,13.343 L15.862,14.458 C15.878,14.690 15.817,14.911 15.643,15.085 L15.029,15.699 C14.910,15.818 14.777,15.870 14.635,15.880 L13.315,15.415 C12.883,15.169 12.359,14.989 11.949,15.139 L11.133,15.436 C10.724,15.585 10.499,16.149 10.383,16.616 L9.960,17.665 C9.828,17.863 9.656,18.000 9.395,18.000 L8.526,18.000 C8.323,18.000 8.152,17.922 8.012,17.796 L7.447,16.606 C7.316,16.123 7.072,15.621 6.678,15.436 L5.891,15.067 C5.496,14.881 4.939,15.122 4.528,15.372 L3.493,15.816 C3.282,15.847 3.084,15.812 2.915,15.643 L2.301,15.029 C2.118,14.846 2.060,14.611 2.086,14.365 L2.347,13.633 L2.591,13.095 C2.588,13.090 2.585,13.085 2.582,13.080 C2.764,12.699 2.869,12.278 2.746,11.938 L2.451,11.120 C2.303,10.710 1.739,10.487 1.271,10.372 L0.224,9.954 C0.088,9.834 -0.000,9.682 -0.000,9.474 L-0.000,8.605 C-0.000,8.169 0.353,7.880 0.789,7.737 L1.592,7.436 C1.599,7.402 1.608,7.369 1.616,7.335 C1.975,7.193 2.298,6.980 2.439,6.680 L2.808,5.894 C2.994,5.499 2.753,4.942 2.502,4.530 L2.194,3.812 C2.090,3.503 2.063,3.209 2.301,2.971 L2.915,2.357 C3.138,2.134 3.436,2.097 3.739,2.170 L4.033,2.275 C4.051,2.283 4.069,2.292 4.087,2.301 L4.877,2.660 C4.889,2.652 4.901,2.645 4.913,2.638 C5.261,2.786 5.632,2.859 5.938,2.748 L6.755,2.454 C7.166,2.305 7.389,1.741 7.503,1.273 L7.863,0.373 C8.022,0.149 8.243,-0.000 8.526,-0.000 L9.395,-0.000 C9.703,-0.000 9.887,0.190 10.027,0.446 L10.136,0.674 C10.152,0.712 10.168,0.750 10.184,0.789 L10.483,1.472 C10.623,1.880 10.850,2.267 11.188,2.424 L11.975,2.791 C12.370,2.975 12.928,2.736 13.340,2.487 L14.231,2.108 C14.525,2.043 14.813,2.085 15.029,2.301 L15.643,2.915 C15.784,3.056 15.831,3.217 15.826,3.388 L15.413,4.561 C15.166,4.992 14.987,5.517 15.136,5.926 L15.433,6.742 C15.570,7.117 16.054,7.337 16.493,7.461 C16.494,7.463 16.494,7.466 16.495,7.468 L17.210,7.737 C17.233,7.744 17.254,7.752 17.276,7.760 L17.376,7.800 C17.732,7.958 18.000,8.226 18.000,8.605 L18.000,9.474 C18.000,9.613 17.961,9.728 17.894,9.824 ZM8.921,4.500 C6.436,4.500 4.421,6.515 4.421,9.000 C4.421,11.485 6.436,13.500 8.921,13.500 C11.406,13.500 13.421,11.485 13.421,9.000 C13.421,6.515 11.406,4.500 8.921,4.500 Z"/>
-</svg>
-                    account settings
-                </a>
-            </div>
-        </div>
-    </header>
-    <main class="container approvecontent">
-        <div class="container-coll">
-            <h2 class="approvecontent__tittle main__tittle">my-first-project</h2>
-            <span class="approvecontent__descr main__descr">A core topic for my first project</span>
-            <table class="approvetable">
-                <thead class="approvetable__head">
-                    <tr class="approvetable__head-row">
-                        <td>approwe</td>
-                        <td>title</td>
-                        <td></td>
-                        <td>type</td>
-                        <td>internal link</td>
-                    </tr>
-                </thead>
-                <tbody class="approvetable__body">
-                    <tr class="approvetable__body-row">
-                        <td>Yes</td>
-                        <td>5 Things to...</td>
-                        <td></td>
-                        <td>List</td>
-                        <td>mysite.com/blog/innerpage/article1</td>
-                    </tr>
-                    <tr class="approvetable__body-row">
-                        <td>No</td>
-                        <td>How to...</td>
-                        <td></td>
-                        <td>How to</td>
-                        <td>mysite.com/blog/innerpage/article1</td>
-                    </tr>
-                    <tr class="approvetable__body-row">
-                        <td>Yes</td>
-                        <td>Introduction to...</td>
-                        <td></td>
-                        <td>Ebook</td>
-                        <td>mysite.com/blog/innerpage/article1</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="container-wrap approvecontent__navigation approvecontent__row">
-            <a href="coretopic3.html" class="approvecontent__navigation-item">
-                <svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27px" height="12px"><path fill-rule="evenodd"  opacity="0.502" fill="rgb(243, 245, 247)" d="M27.000,6.880 L3.069,6.880 L6.779,10.639 L5.447,11.989 L0.737,7.217 L1.070,6.880 L0.726,6.880 L0.726,5.856 L0.012,5.132 L5.064,0.012 L6.493,1.460 L3.166,4.832 L27.000,4.832 L27.000,6.880 Z"/></svg>
-                <span>try again</span>
-            </a>
-            <a href="approvecontent2.html"  class="approvecontent__navigation-item">
-                <span>next</span>
-                <svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27px" height="12px"><path fill-rule="evenodd"  opacity="0.502" fill="rgb(243, 245, 247)" d="M26.274,5.856 L26.274,6.880 L25.930,6.880 L26.263,7.217 L21.553,11.989 L20.221,10.639 L23.931,6.880 L-0.000,6.880 L-0.000,4.832 L23.834,4.832 L20.506,1.460 L21.936,0.012 L26.988,5.132 L26.274,5.856 Z"/></svg>
-            </a>
-        </div>
-    </main>
-    <footer>
+ <footer>
         <div class="container-footer">
             <div class="logo container-coll">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="205px" height="28px">
@@ -98,6 +8,14 @@
             </div>
         </div>
     </footer>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+	<script src="js/messi.js"></script>
+	<script src="js/script.js"></script>
+	
 </body>
 
 </html>

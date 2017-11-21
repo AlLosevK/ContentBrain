@@ -1,0 +1,20 @@
+.approvecontent2__navigation-item
+        padding: 1em 5.16em;
+.projects__item
+        padding: 5em 0 0;
+        min-width: 270px;
+        max-width: 270px;
+        min-height: 270px;
+        max-height: 270px;
+        text-align: center;
+.topics__item-tittle
+        margin-bottom: 0.3em;
+        padding: 7em 0 0;
+        min-width: 270px;
+        max-width: 270px;
+        min-height: 270px;
+        max-height: 270px;
+.topics__new
+        padding: 6.5em 0 0;
+.approvecontent2__button
+        max-height: 2em;
