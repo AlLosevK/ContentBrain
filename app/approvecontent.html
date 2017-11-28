@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
-
 <body class="container-body">
     <header class="header container-header">
         <div class="container container-wrap">
@@ -42,6 +41,12 @@
         <div class="container-coll">
             <h2 class="approvecontent__tittle main__tittle">my-first-project</h2>
             <span class="approvecontent__descr main__descr">A core topic for my first project</span>
+            <ul class="set__navigation container-wrap">
+                <li class="set__navigation-item"><a href="coretopic2.html">Metrics</a></li>
+                <li class="set__navigation-item"><a href="coretopic3.html">Content Types</a></li>
+                <li class="set__navigation-item"><a class="active pseudo pseudo-dot" href="#">Titles</a></li>
+                <li class="set__navigation-item"><a href="approvecontent2.html">Research</a></li>
+            </ul>
             <table class="approvetable">
                 <thead class="approvetable__head">
                     <tr class="approvetable__head-row">
@@ -50,45 +55,37 @@
                         <td></td>
                         <td>type</td>
                         <td>internal link</td>
+                        <td></td>
                     </tr>
                 </thead>
                 <tbody class="approvetable__body">
                     <tr class="approvetable__body-row">
                         <td>Yes</td>
-                        <td>5 Things to...</td>
-                        <td></td>
+                        <td>
+                            <div class="block">
+                                <input type="text" class="block__input block__input1" value="5 Things to..." readonly>
+                            </div>
+                        </td>
+                        <td><button type="button" class="block__btn block__btn1">Edit title</button></td>
                         <td>List</td>
                         <td>mysite.com/blog/innerpage/article1</td>
-<<<<<<< HEAD
-=======
-                        <td>
-                        </td>
->>>>>>> parent of cf263da... Change % on em in all padding&margin
+                        <td></td>
                     </tr>
                     <tr class="approvetable__body-row">
                         <td>No</td>
-                        <td>How to...</td>
-                        <td></td>
+                        <td>
+                            <div class="block">
+                                <input type="text" class="block__input block__input2" value="How to..." readonly>
+                            </div>
+                        </td>
+                        <td><button type="button" class=" block__btn block__btn2">Edit title</button></td>
                         <td>How to</td>
-                        <td>mysite.com/blog/innerpage/article1</td>
-<<<<<<< HEAD
-=======
                         <td>
+                           <div class="block">
+                                <input type="text" class="block__input block__input3" value="mysite.com/blog/innerpage/article1" readonly>
+                            </div>
                         </td>
->>>>>>> parent of cf263da... Change % on em in all padding&margin
-                    </tr>
-                    <tr class="approvetable__body-row">
-                        <td>Yes</td>
-                        <td>Introduction to...</td>
-                        <td></td>
-                        <td>Ebook</td>
-                        <td>mysite.com/blog/innerpage/article1</td>
-<<<<<<< HEAD
-=======
-                        <td>
-                        </td>
->>>>>>> parent of cf263da... Change % on em in all padding&margin
-                    </tr>
+                        <td><button type="button" class=" block__btn block__btn3">Edit url</button></td>
                 </tbody>
             </table>
         </div>
@@ -113,6 +110,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
-
 </html>

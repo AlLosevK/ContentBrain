@@ -1,0 +1,41 @@
+.newprojects
+    margin-bottom: 1em
+.newproject
+    width: 470px
+    &__item
+        display: block
+        border: none
+        border-radius: 60px
+        text-align: center
+        font-family: $fontLatos
+        font-size: 18px
+        font-weight: bold
+        color: #989898
+        background-color: #dfdfdf
+        width: 96%
+        padding: 1.305em 0.5em
+        text-transform: uppercase
+        outline:none
+        &:focus
+            outline: 0;
+            outline-offset: 0;
+    &__name
+        margin: 0 0 1em
+        position: relative
+    &__url
+        margin: 0 0 2em
+    &__check
+        color: #fff
+        width: 96%
+        position: relative
+        background-color: $companyColor
+        &:before
+            content: ''
+            position: absolute
+            top: 42%
+            left: 59%
+            transform: translate(-50%, 0)
+            width: 30px
+            height: 15px
+            background-repeat: no-repeat
+            background-image: url('../img/arrow.png')
