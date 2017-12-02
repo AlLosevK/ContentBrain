@@ -30,6 +30,12 @@ $stmt1 = $db->prepare("SELECT * FROM user_selected_articles where cid='$cid'");
 			}
 			else{			
 			?>
+           <ul class="set__navigation container-wrap">
+                <li class="set__navigation-item"><a href="campaigns.php">Metrics</a></li>
+                <li class="set__navigation-item"><a href="approveKeywords.php">Content Types</a></li>
+                <li class="set__navigation-item"><a href="approveTitle.php">Titles</a></li>
+                <li class="set__navigation-item"><a class="active pseudo pseudo-dot" href="#">Research</a></li>
+            </ul>
             <table class="approvetable2">
                 <thead class="approvetable2__head">
                     <tr class="approvetable2__head-row">

@@ -22,7 +22,10 @@ include('header.php');?>
 						$result = $sql->fetchAll();
 						foreach ($result as $row)
 						{?>
-							<a href="projectDashboard.php?pid=<?php echo $row[id];?>" class="projects__item"><?php echo $row['project_name'];?></a>
+							<a href="projectDashboard.php?pid=<?php echo $row[id];?>" class="projects__item">
+							    <span><?php echo $row['project_name'];?></span></br>
+							    <span class="projects__item-descr">5 Topic</span>
+							 </a>
 						<?php
 						}
 					}

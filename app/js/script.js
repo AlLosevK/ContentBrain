@@ -18,8 +18,8 @@ $(document).ready(function () {
             $('.js-show-block-introdution').fadeIn();
         }
     })
-    $('.block__btn1').on('click', function(){
-        var ourInput = $('.block__input1')
+    $('.block__btn').on('click', function(){
+        var ourInput = $(this).prev('.block__input')
         if ($(this).hasClass('is-active')) {
         $(this).removeClass('is-active')
         ourInput.attr('readonly', true)
@@ -28,33 +28,7 @@ $(document).ready(function () {
         $(this).addClass('is-active')
         $(this).text('Save this')
         ourInput.removeAttr('readonly').focus()
-        ourInput.setSelectionRange(ourInput.value.length, ourInput.value.length);
+        ourInput.setSelectionRange(ourInput.val().length, ourInput.val().length);
     }
     })
-    $('.block__btn2').on('click', function(){
-        var ourInput = $('.block__input2')
-        if ($(this).hasClass('is-active')) {
-        $(this).removeClass('is-active')
-        ourInput.attr('readonly', true)
-        $(this).text('Edit input')
-    } else {
-        $(this).addClass('is-active')
-        $(this).text('Save this')
-        ourInput.removeAttr('readonly').focus()
-        ourInput.setSelectionRange(ourInput.value.length, ourInput.value.length);
-    }
-    }) 
-    $('.block__btn3').on('click', function(){
-        var ourInput = $('.block__input3')
-        if ($(this).hasClass('is-active')) {
-        $(this).removeClass('is-active')
-        ourInput.attr('readonly', true)
-        $(this).text('Edit input')
-    } else {
-        $(this).addClass('is-active')
-        $(this).text('Save this')
-        ourInput.removeAttr('readonly').focus()
-        ourInput.setSelectionRange(ourInput.value.length, ourInput.value.length);
-    }
-    }) 
 })

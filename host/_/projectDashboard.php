@@ -50,14 +50,19 @@ extract($row);
 						?>
 							<a href="<?php echo $page_name;?>" class="topics__item">
 								<span class="topics__item-tittle"><?php echo $row['topic_name'];?></span>
+								<button class="pseudo-delete projects__item-delete"></button></br>
 								<div class="topics__content">
-								<?php if($result_page['page_name']=="campaigns.php"){?> 
-									<span class="topics__content-item">Not Started</span>
-								<?php } else if($result_page['page_name']=="finalTitle.php"){?>
-									<span class="topics__content-item">Done</span>
-								<?php } else {?>
-									<span class="topics__content-item">In Progress</span>
-								<?php } ?>
+                                    <?php if($result_page['page_name']=="campaigns.php"){?> 
+                                        <span class="topics__content-item">Not Started</span>
+                                    <?php } else if($result_page['page_name']=="finalTitle.php"){?>
+                                        <span class="topics__content-item">Done</span>
+                                    <?php } else {?>
+                                        <span class="topics__content-item">In Progress</span>
+                                    <?php } ?>
+                                        <span class="topics__content-item">2</span>
+                                        <span class="topics__content-item">3</span>
+                                        <span class="topics__content-item">4</span>
+                                        <span class="topics__content-item">5</span>
 								</div>
 							</a>
 						<?php

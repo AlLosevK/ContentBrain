@@ -71,6 +71,12 @@ $article=get_article($cid);
             <h2 class="approvecontent__tittle main__tittle"><?php echo $project_name;?></h2>
             <span class="approvecontent__descr main__descr">A core topic for <?php echo $topic_name;?></span>
 			<?php if(is_array($article)){ ?>
+           <ul class="set__navigation container-wrap">
+                <li class="set__navigation-item"><a href="campaigns.php">Metrics</a></li>
+                <li class="set__navigation-item"><a href="approveKeywords.php">Content Types</a></li>
+                <li class="set__navigation-item"><a class="active pseudo pseudo-dot" href="#">Titles</a></li>
+                <li class="set__navigation-item"><a href="finalTitle.php">Research</a></li>
+            </ul>
             <table class="approvetable">
                 <thead class="approvetable__head">
                     <tr class="approvetable__head-row">
@@ -91,11 +97,18 @@ $article=get_article($cid);
 						<input type="checkbox" name="approve[]" id="contenttype__checkbox-<?php echo $i;?>" class="contenttype__checkbox" value="<?php echo $article[$i]['content'];?>,<?php echo $article[$i]['type'];?>">
                             <label for="contenttype__checkbox-<?php echo $i;?>" class="contenttype__checkbox-custom"></label>
 						</td>
-                        <td><?php echo $article[$i]['content'];?></td>
-                        <td></td>
+                        <td colspan="2">
+                            <div class="block">
+                                <input type="text" class="block__input" value="<?php echo $article[$i]['content'];?>" readonly>
+                                <button type="button" class=" block__btn">Edit title</button>
+                            </div>
+                        </td>
                         <td><?php echo $article[$i]['type'];?></td>
-                        <td></td>
-                        <td>
+                        <td colspan="2">
+                           <div class="block">
+                                <input type="text" class="block__input" value="mysite.com/blog/innerpage/article3" readonly>
+                                <button type="button" class="block__btn">Edit url</button>
+                            </div>
                         </td>
                     </tr>
 				<?php }

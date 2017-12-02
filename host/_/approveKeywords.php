@@ -65,6 +65,12 @@ $ctype=explode(',',$type);
         <div class="container-coll">
             <h2 class="newtopics3__tittle main__tittle"><?php echo $project_name;?></h2>
             <span class="newtopics3__descr main__descr">A core topic for <?php echo $topic_name;?></span>
+            <ul class="set__navigation container-wrap">
+                <li class="set__navigation-item"><a href="campaigns.php">Metrics</a></li>
+                <li class="set__navigation-item"><a class="active pseudo pseudo-dot" href="#">Content Types</a></li>
+                <li class="set__navigation-item"><a href="approveTitle.php">Titles</a></li>
+                <li class="set__navigation-item"><a href="finalTitle.php">Research</a></li>
+            </ul>
 			<?php if(!empty($keywords_arr)){ ?>
 			<form method="post" name="keyword_type" id="keywordType">
 			<input type="hidden" value="<?php echo $totalkeywords;?>" name="total_keywords" id="total_Keywords">

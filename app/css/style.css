@@ -484,17 +484,17 @@ footer {
       background-color: #a400ff; }
     .topics__item-tittle {
       display: block;
-      margin-bottom: 0.3em;
-      padding: 7em 0 0; }
+      margin: 4.4em 0 -1.4em; }
   .topics__content {
     margin: 0 auto;
     text-align: center; }
     .topics__content-item {
       display: block;
       font-family: "Lato", sans-serif;
-      font-size: 18px;
+      font-size: 16px;
       font-weight: bold;
-      color: #ebc6ff; }
+      color: #ebc6ff;
+      margin-bottom: -0.3em; }
   .topics__new {
     display: block;
     -webkit-box-sizing: border-box;
@@ -516,6 +516,20 @@ footer {
       text-decoration: none;
       color: #8700d2;
       background-color: transparent; }
+
+.no_anchor {
+  text-decoration: none;
+  color: #fff; }
+  .no_anchor:hover {
+    text-decoration: none;
+    color: #fff; }
+
+.no_anchor1 {
+  text-decoration: none;
+  color: #fff; }
+  .no_anchor1:hover {
+    text-decoration: none;
+    color: #fff; }
 
 .newprojects {
   margin-bottom: 1em; }
@@ -1026,6 +1040,12 @@ footer {
       vertical-align: middle; }
       .approvetable__body-row td:first-child {
         padding-left: 2em; }
+      .approvetable__body-row td:nth-child(2) {
+        width: 33.2%; }
+      .approvetable__body-row td:last-child {
+        width: 33.2%; }
+      .approvetable__body-row td input {
+        border: 1px solid gray; }
 
 .approvecontent2__tittle {
   margin-bottom: 0.33em; }

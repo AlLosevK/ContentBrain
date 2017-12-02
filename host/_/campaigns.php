@@ -74,7 +74,12 @@ if(isset($_POST['submit'])){
         <div class="container-coll">
             <h2 class="newtopics2__tittle main__tittle"><?php echo $project_name;?></h2>
             <span class="newtopics2__descr main__descr">A core topic for <?php echo $topic_name;?></span>
-			
+			<ul class="set__navigation container-wrap">
+                <li class="set__navigation-item"><a class="active pseudo pseudo-dot" href="#">Metrics</a></li>
+                <li class="set__navigation-item"><a href="approveKeywords.php">Content Types</a></li>
+                <li class="set__navigation-item"><a href="approveTitle.php">Titles</a></li>
+                <li class="set__navigation-item"><a href="finalTitle.php">Research</a></li>
+            </ul>
             <table class="topictable">
                 <thead class="topictable__head">
                     <tr class="topictable__head-row">
