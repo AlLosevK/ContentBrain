@@ -1,3 +1,31 @@
+.demo__link {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: #8700d2;
+  color: #fff;
+  padding: 5px;
+  -webkit-transition: 1.5s;
+  -o-transition: 1.5s;
+  transition: 1.5s;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  margin-bottom: 1em; }
+  .demo__link:hover {
+    text-decoration: none;
+    color: #8700d2;
+    background-color: #fff;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
+  a:hover {
+    text-decoration: none;
+    color: #fff; }
+
 .pseudo {
   display: block;
   width: 100%;
