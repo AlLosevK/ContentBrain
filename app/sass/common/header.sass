@@ -3,10 +3,10 @@
     padding: 1.9em 3.75em
 
 .home
-    height: 3em
+    height: 2em
     width: 2em
     background-image: url('../img/home.svg')
-    background-size: 2em 3em
+    background-size: 2em 2em
     background-position: 50% 50%
     background-repeat: no-repeat
     
@@ -18,17 +18,30 @@
     &__title
         display: block
         font-family: $fontLatos
-        font-size: 36px
+        font-size: 2.34vw
         color: #fff
     &__back
         display: block
         font-family: $fontLatos
-        font-size: 14px
+        font-size: 0.91vw
         color: #d68dff
         text-transform: uppercase
+        position: relative
+        margin: 0 0 0 1.8vw
         &:hover
             text-decoration: none
             color: #d68dff
+        &:before
+            content: ''
+            position: absolute
+            top: 0.25vw
+            left: -0.6vw
+            transform: translate(-50%, 0)
+            background-repeat: no-repeat
+            background-image: url('../img/left-arrow.svg')
+            width: 2.1vw
+            height: 1.1vw
+            background-size: 1.5vw 0.8vw
     
 .logo
     background-color: transparent
@@ -43,22 +56,22 @@
     align-items: center
     width: 36%
     &__title-header
-        font-size: 20px
+        font-size: 1.3vw
         margin: 0
         color: #fff
         text-transform: uppercase
         margin-right: 0.4em
     &__img
         display: block
-        height: 28px
-        width: 37px
+        height: 1.82vw
+        width: 2.4vw
 
 .setting
     width: 26%
     text-align: right
     font-family: $fontLatos
     text-align: right
-    font-size: 14px
+    font-size: 0.91vw
     font-weight: bold
     text-transform: uppercase
     color: #d68dff
@@ -66,8 +79,32 @@
     & a
         text-decoration: none
         color: #d68dff
+        position: relative
         &:hover
             text-decoration: none
             color: #d68dff
-        & svg
-            margin-bottom: -1%
+        &:before
+            content: ''
+            position: absolute
+            top: 0
+            left: -0.7vw
+            transform: translate(-50%, 0)
+            background-repeat: no-repeat
+            background-image: url('../img/setting.svg')
+            width: 1.17vw
+            height: 1.17vw
+            background-size: 1.17vw 1.17vw
+    &-access
+        & span
+            position: relative
+            &:before
+                content: ''
+                position: absolute
+                top: 0
+                left: -0.7vw
+                transform: translate(-50%, 0)
+                background-repeat: no-repeat
+                background-image: url('../img/request.svg')
+                width: 1.17vw
+                height: 1.17vw
+                background-size: 0.97vw 1.17vw

@@ -37,24 +37,24 @@ if(isset($_POST['submit'])){ //die("dd");
 		    $error[] = $e->getMessage();
 	}
 }		
-?>  
+?>
 
- <main class="container newprojects">
-        <div class="container-coll">
-            <h2 class="newproject__tittle main__tittle">new projects</h2>
-			<?php
+<main class="container newprojects">
+    <div class="container-coll">
+        <h2 class="newproject__tittle main__tittle">new projects</h2>
+        <?php
 			//check for any errors
 				if(isset($error)){
 					foreach($error as $error){
 						echo '<p class="alert alert-danger">'.$error.'</p>';
 					}
 				}
-			?>	
-            <form method="post" class="newproject container-coll" name="newproject" id="newproject">                
+			?>
+            <form method="post" class="newproject container-coll" name="newproject" id="newproject">
                 <input type="text" name="project_name" class="newproject__name newproject__item" placeholder="project name" autofocus required>
-                <input type="text" name="project_url" class="newproject__url login__item" placeholder="url" required>
+                <input type="text" name="project_url" class="newproject__url newproject__item" placeholder="url" required>
                 <button type="submit" name="submit" class="newproject__check newproject__item">GO</button>
             </form>
-        </div>
-    </main>
- <?php include('footer.php');?> 
+    </div>
+</main>
+<?php include('footer.php');?>

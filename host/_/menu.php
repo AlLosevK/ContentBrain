@@ -1,4 +1,4 @@
- <?php
+<?php
 		
    $currentFile = $_SERVER["PHP_SELF"];
     $parts = Explode('/', $currentFile);
@@ -66,14 +66,10 @@
 	
 ?>
 
-    
- <div class="navigation">
-                <span class="navigation__title"><?php echo $nav_title; ?></span>
-                <a href="<?php echo $nav_sublink; ?>" class="navigation__back">
-                    <svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="8px">
-<path fill-rule="evenodd"  fill="rgb(214, 141, 255)"
- d="M16.000,4.880 L3.059,4.880 L4.778,6.639 L3.446,7.989 L0.737,5.217 L1.070,4.880 L0.726,4.880 L0.726,3.856 L0.012,3.132 L3.064,0.012 L4.493,1.460 L3.151,2.832 L16.000,2.832 L16.000,4.880 Z"/>
-</svg>
+
+    <div class="navigation">
+        <span class="navigation__title"><?php echo $nav_title; ?></span>
+        <a href="<?php echo $nav_sublink; ?>" class="navigation__back">
                  <span><?php echo $nav_subtitle; ?></span>
                 </a>
-            </div>
+    </div>

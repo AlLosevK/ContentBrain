@@ -3,7 +3,7 @@
         margin-bottom: 1%
     &__navigation
         text-transform: uppercase
-        font-size: 18px
+        font-size: 1.17vw
         font-weight: bold
         color: #fff
         font-family: $fontLatos
@@ -13,13 +13,40 @@
             color: #fff
             background-color: $companyColor
             font-weight: bold
-            font-size: 18px
+            font-size: 1.17vw
             border-radius: 60px
             padding: 1em 5.1em
             text-decoration: none
+            border: none
             &:hover
                 text-decoration: none
                 color: #fff
+        &-next
+            position: relative
+            &:before
+                content: ''
+                position: absolute
+                top: 20%
+                left: 150%
+                transform: translate(-50%, 0)
+                width: 1.95vw
+                height: 0.97vw
+                background-repeat: no-repeat
+                background-image: url('../img/arrow.png')
+                background-size: 1.95vw 0.97vw
+        &-back
+            position: relative
+            &:before
+                content: ''
+                position: absolute
+                top: 20%
+                right: 100%
+                transform: translate(-50%, 0)
+                width: 1.95vw
+                height: 0.97vw
+                background-repeat: no-repeat
+                background-image: url('../img/left-arrow.svg')
+                background-size: 1.95vw 0.87vw
     &__row
         justify-content: space-between
 .topictable
@@ -37,7 +64,7 @@
         position: relative
         &-descr
             position: absolute
-            font-size: 13px
+            font-size: 0.85vw
             background-color: #8700d2
             color: #fff
             text-align: left
@@ -75,7 +102,7 @@
                 background-color: #dfdfdf
                 color: #989898
                 text-transform: uppercase
-                font-size: 16px
+                font-size: 1.04vw
                 font-family: $fontLatos
                 padding: 1em 0
                 border-left: 2px solid  #fff
@@ -97,7 +124,7 @@
         padding: 1.5% 0
         & td
             width: 16.66%
-            font-size: 18px
+            font-size: 1.17vw
             font-weight: 400
             color: #919191
             font-family: $fontLatos
@@ -119,7 +146,7 @@
                 transform: translateY(-50%)
                 border-radius: 5px
                 border: 2px solid $companyColor
-                width: 22px
-                height: 22px
+                width: 1.43vw
+                height: 1.43vw
             &:hover
                 cursor: pointer

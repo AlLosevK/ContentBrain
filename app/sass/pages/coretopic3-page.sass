@@ -3,7 +3,7 @@
         margin-bottom: 1%
     &__navigation
         text-transform: uppercase
-        font-size: 18px
+        font-size: 1.17vw
         font-weight: bold
         color: #fff
         font-family: $fontLatos
@@ -13,13 +13,43 @@
             color: #fff
             background-color: $companyColor
             font-weight: bold
-            font-size: 18px
+            font-size: 1.17vw
             border-radius: 60px
             padding: 1em 5.1em
             text-decoration: none
+            border: none
             &:hover
                 text-decoration: none
                 color: #fff
+        &-next
+            position: relative
+            &:before
+                content: ''
+                position: absolute
+                top: 20%
+                left: 150%
+                transform: translate(-50%, 0)
+                width: 1.95vw
+                height: 0.97vw
+                background-repeat: no-repeat
+                background-image: url('../img/arrow.png')
+                background-size: 1.95vw 0.97vw
+        &-back
+            position: relative
+            &:before
+                content: ''
+                position: absolute
+                top: 20%
+                right: 100%
+                transform: translate(-50%, 0)
+                width: 1.95vw
+                height: 0.97vw
+                background-repeat: no-repeat
+                background-image: url('../img/left-arrow.svg')
+                background-size: 1.95vw 0.87vw
+            & img
+                width: 1.755vw
+                height: 0.78vw
     &__row
         justify-content: space-between
      
@@ -28,7 +58,7 @@
     align-items: flex-start
     margin-bottom: 1em
     &__descr
-        font-size: 18px
+        font-size: 1.17vw
         font-weight: 400
         color: #919191
         justify-content: flex-start
@@ -41,7 +71,7 @@
 .subtopic
     width: 18.5%
     &__tittle
-        font-size: 16px
+        font-size: 1.04vw
         font-weight: bold
         padding: 1em 4em
         color: #989898
@@ -49,7 +79,7 @@
         border-radius: 30px
         text-transform: uppercase
     &__descr
-        font-size: 16px
+        font-size: 1.04vw
         font-weight: bold
         padding: 1em 4em
         color: #989898
@@ -62,7 +92,7 @@
     justify-content: space-between
     align-items: stretch
     &__tittle
-        font-size: 16px
+        font-size: 1.04vw
         font-weight: bold
         color: #989898
         width: 100%
@@ -84,9 +114,9 @@
             background-position: 35% 45%
         &-custom
             display: block
-            padding-left: 32px
+            padding-left: 2.08vw
             position: relative
-            font-size: 18px
+            font-size: 1.17vw
             font-weight: 400
             color: #919191
             &:before 
@@ -97,7 +127,7 @@
               transform: translateY(-50%)
               border-radius: 4px
               border: 2px solid $companyColor
-              width: 22px
-              height: 22px
+              width: 1.43vw
+              height: 1.43vw
             &:hover
               cursor: pointer

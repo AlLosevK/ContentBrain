@@ -34,6 +34,18 @@
         flex-direction: column
         justify-content: space-around
         align-items: center
+        position: relative
+        &:before
+            content: ''
+            position: absolute
+            top: 0vw
+            left: 50vw
+            transform: translate(-50%, 0)
+            background-repeat: no-repeat
+            background-image: url('../img/footer-logo.svg')
+            width: 16.9vw
+            height: 2vw
+            background-size: 16vw 2vw
     &-body
         display: -webkit-flex
         display: -moz-flex
