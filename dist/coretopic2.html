@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CoreTopic - ContentBrain</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body class="container-body">
+    <header class="header container-header">
+        <div class="container container-wrap">
+            <div class="navigation">
+                <span class="navigation__title">project</span>
+                <a href="coretopic.html" class="navigation__back">
+                    <span>core topic</span>
+                </a>
+            </div>
+            <div class="logo">
+                <h1 class="logo__title-header">content brain </h1>
+                <img src="img/logo.png" alt="Logo" class="logo__img">
+            </div>
+            <div class="setting">
+                <a href="accounsettings.html">account settings</a>
+            </div>
+        </div>
+    </header>
+    <main class="container newtopics2">
+        <div class="container-coll">
+            <h2 class="newtopics2__tittle main__tittle">my-first-project</h2>
+            <span class="newtopics2__descr main__descr">A core topic for my first project</span>
+            <ul class="set__navigation container-wrap">
+                <li class="set__navigation-item"><a class="active pseudo pseudo-dot" href="#">Metrics</a></li>
+                <li class="set__navigation-item"><a href="coretopic3.html">Content Types</a></li>
+                <li class="set__navigation-item"><a href="approvecontent.html">Titles</a></li>
+                <li class="set__navigation-item"><a href="approvecontent2.html">Research</a></li>
+            </ul>
+            <table class="topictable">
+                <thead class="topictable__head">
+                    <tr class="topictable__head-row">
+                        <td>
+                            subtopic
+                        </td>
+                        <td>
+                            traffic
+                            <button class="pseudo-info topictable__head-info"></button>
+                            <p class="topictable__head-descr traffic">The number of times this keyword has been searched for.</p>
+                        </td>
+                        <td>
+                            IAAT
+                            <button class="pseudo-info topictable__head-info"></button>
+                            <p class="topictable__head-descr iaat">The number of pages where the keyword is in both the title and the content of a backlink.</p>
+                        </td>
+                        <td>
+                            competition
+                            <button class="pseudo-info topictable__head-info"></button>
+                            <p class="topictable__head-descr competition">The higher this number, the more competition for this keyword.</p>
+                        </td>
+                        <td>
+                            KEI
+                            <button class="pseudo-info topictable__head-info"></button>
+                            <p class="topictable__head-descr kei">Keyword Effectiveness Index goes up when the popularity icreases, but down when it becomes more competitive.</p>
+                        </td>
+                        <td>
+                            select
+                        </td>
+                    </tr>
+                </thead>
+                <tbody class="topictable__body">
+                    <tr class="topictable__body-row">
+                        <td>Subtopic #1</td>
+                        <td>3</td>
+                        <td>1387</td>
+                        <td>High</td>
+                        <td>7</td>
+                        <td>
+                            <input type="checkbox" id="topictable__checkbox1" class="topictable__checkbox">
+                            <label for="topictable__checkbox1" class="topictable__checkbox-custom"></label>
+                        </td>
+                    </tr>
+                    <tr class="topictable__body-row">
+                        <td>Subtopic #2</td>
+                        <td>1</td>
+                        <td>224</td>
+                        <td>Low</td>
+                        <td>2</td>
+                        <td>
+                            <input type="checkbox" id="topictable__checkbox2" class="topictable__checkbox">
+                            <label for="topictable__checkbox2" class="topictable__checkbox-custom"></label>
+                        </td>
+                    </tr>
+                    <tr class="topictable__body-row">
+                        <td>Subtopic #3</td>
+                        <td>5</td>
+                        <td>2673</td>
+                        <td>Medium</td>
+                        <td>2</td>
+                        <td>
+                            <input type="checkbox" id="topictable__checkbox3" class="topictable__checkbox">
+                            <label for="topictable__checkbox3" class="topictable__checkbox-custom"></label>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container-wrap newtopics2__navigation newtopics2__row">
+            <a href="coretopic.html" class="newtopics2__navigation-item">
+                <span class="newtopics2__navigation-back">try new topic</span>
+            </a>
+            <a href="coretopic3.html" class="newtopics2__navigation-item">
+                <span class="newtopics2__navigation-next">next</span>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <div class="container-footer">
+            <div class="logo container-coll">
+                <span class="copyright">© 2017 «CONTENT BRAIN» All rights reserved</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
