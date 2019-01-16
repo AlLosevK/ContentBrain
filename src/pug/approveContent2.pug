@@ -1,0 +1,88 @@
+---
+title: Account Settings - ContentBrain
+bodyClass: container-body
+backNav: select types of
+---
+extends shared/_layout
+block content
+
+  main.container.approvecontent2
+      .container-coll
+          h2.approvecontent2__tittle.main__tittle my-first-project
+          span.approvecontent2__descr.main__descr A core topic for my first project
+          ul.set__navigation.container-wrap
+              li.set__navigation-item
+                a(href="coretopic2.html") Metrics
+              li.set__navigation-item
+                a(href="coretopic3.html") Content Types
+              li.set__navigation-item
+                a(href="approvecontent.html") Titles
+              li.set__navigation-item
+                a.active.pseudo.pseudo-dot(href="#") Research
+          table.approvetable2
+              thead.approvetable2__head
+                  tr.approvetable2__head-row
+                      td title
+                      td 
+                      td type
+                      td stage
+                      td
+                      td research
+              tbody.approvetable2__body
+                  tr.approvetable2__body-row
+                      td 5 Things to...
+                      td
+                      td List
+                      td Finished
+                      td
+                      td
+                          button.approvecontent2__button.js-show__button-things.approvecontent2__button-item find sourses
+                  tr.approvetable2__body-row
+                      td How to...
+                      td
+                      td How to
+                      td In Progress
+                      td
+                      td
+                          button.approvecontent2__button.js-show__button-how.approvecontent2__button-item find sourses
+                  tr.approvetable2__body-row
+                      td Introduction to
+                      td
+                      td Ebook
+                      td Not Started
+                      td
+                      td
+                          button.approvecontent2__button.js-show__button-introdution.approvecontent2__button-item find sourses
+      .container-coll.resources.resources-item.js-show-block-thing
+          h2.resources__tittle Here are some articles to inspire you
+          .resourc
+              h3.resourc__tittle 10 Things Everyone Should Know How To Do
+              a(href="#").resourc__link www.marcandangel.com/.../50-things-everyone-should-kno...
+              p.resourc__descr While not totally comprehensive , here is a list of 50 things everyone should know how to do. <br> 1. Build a Fire – Fire produces heat and light, two ...
+          .resourc
+              h3.resourc__tittle 1 Fun Things to Do When You're Bored - wikiHow
+              a(href="").resourc__link https://www.wikihow.com/Do-Something-when-You%27re-...
+              p.resourc__descr How to Do Something when You're Bored. Being bored can really be uninteresting, but there are some ways you can change that into a good time. All you need ...
+      .container-coll.resources.resources-item.js-show-block-how
+          h2.resources__tittle Here are some articles to inspire you
+          .resourc
+              h3.resourc__tittle 50 Things Everyone Should Know How To Do
+              a(href="#").resourc__link www.marcandangel.com/.../50-things-everyone-should-kno...
+              p.resourc__descr While not totally comprehensive , here is a list of 50 things everyone should know how to do. <br> 1. Build a Fire – Fire produces heat and light, two ...
+          .resourc
+              h3.resourc__tittle 5 Fun Things to Do When You're Bored - wikiHow
+              a(href="").resourc__link https://www.wikihow.com/Do-Something-when-You%27re-...
+              p.resourc__descr How to Do Something when You're Bored. Being bored can really be uninteresting, but there are some ways you can change that into a good time. All you need ...
+      .container-coll.resources.resources-item.js-show-block-introdution
+          h2.resources__tittle Here are some articles to inspire you
+          .resourc
+              h3.resourc__tittle 100 Things Everyone Should Know How To Do
+              a(href="#").resourc__link www.marcandangel.com/.../50-things-everyone-should-kno...
+              p.resourc__descr While not totally comprehensive , here is a list of 50 things everyone should know how to do. <br> 1. Build a Fire – Fire produces heat and light, two ...
+          .resourc
+              h3.resourc__tittle 10 Fun Things to Do When You're Bored - wikiHow
+              a(href="").resourc__link https://www.wikihow.com/Do-Something-when-You%27re-...
+              p.resourc__descrHow to Do Something when You're Bored. Being bored can really be uninteresting, but there are some ways you can change that into a good time. All you need ...
+      div.container-wrap.approvecontent2__navigation.approvecontent2__row
+          a(href="campaigns.html").approvecontent2__navigation-item
+              span.approvecontent2__navigation-save save

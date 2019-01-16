@@ -1,0 +1,15 @@
+---
+title: Account Settings - ContentBrain
+bodyClass: container-body
+backNav: new project
+---
+extends shared/_layout
+block content
+
+  main.container.newprojects
+      .container-coll
+          h2.newproject__tittle.main__tittle new projects
+          form(action="#" name="newproject").newproject.container-coll
+              input(type="text" placeholder="project name" autofocus required).newproject__name.newproject__item
+              input(type="text" placeholder="url" required).newproject__url.newproject__item
+              a.newproject__check.newproject__item(href="coretopic.html") GO

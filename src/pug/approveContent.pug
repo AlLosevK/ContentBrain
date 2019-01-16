@@ -1,0 +1,58 @@
+---
+title: Account Settings - ContentBrain
+bodyClass: container-body
+backNav: select types of content
+---
+extends shared/_layout
+block content
+
+  main.container.approvecontent
+      .container-coll
+          h2.approvecontent__tittle.main__tittle my-first-project
+          span.approvecontent__descr.main__descr A core topic for my first project
+          ul.set__navigation.container-wrap
+              li.set__navigation-item
+                a(href="coretopic2.html") Metrics
+              li.set__navigation-item
+                a(href="coretopic3.htmlContent") Types
+              li.set__navigation-item
+                a.active.pseudo.pseudo-dot(href="#") Titles
+              li.set__navigation-item
+                a(href="approvecontent2.html") Research
+          table.approvetable
+              thead.approvetable__head
+                  tr.approvetable__head-row
+                      td approwe
+                      td title
+                      td
+                      td type
+                      td internal link
+                      td
+              tbody.approvetable__body
+                  tr.approvetable__body-row
+                      td Yes
+                      td
+                          .block
+                              input.block__input(type="text" value="5 Things to..." readonly)
+                              button.block__btn(type="button") Edit title
+                      td List
+                      td(colspan="2")
+                          .block
+                              input.block__input(type="text" value="mysite.com/blog/innerpage/article1" readonly)
+                              button.block__btn(type="button") Edit url
+                  tr.approvetable__body-row
+                      td No
+                      td.approvetable__body-row-title(colspan="2")
+                          .block
+                              input.block__input(type="text" value="How to..." readonly)
+                              button.block__btn(type="button") Edit title
+                      td How to
+                      td(colspan="2")
+                          .block
+                              input.block__input(type="text" value="mysite.com/blog/innerpage/article3" readonly)
+                              button.block__btn(type="button") Edit url
+      .container-wrap.approvecontent__navigation.approvecontent__row
+          a.approvecontent__navigation-item(href="coretopic3.html")
+              span.approvecontent__navigation-back try again
+          a.approvecontent__navigation-item(href="approvecontent2.html")
+              span.approvecontent__navigation-next next

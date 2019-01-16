@@ -1,61 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Campaigns - ContentBrain</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
-</head>
-
-<body class="container-body">
+  <head>
+    <!-- MADE WITH LOVE BY <> KHMELEVSKOY & ASSOCIATES </> www.khmelevskoy.co-->
+    <meta charset="utf-8">
+    <title>Account Settings - ContentBrain</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fff">
+    <meta name="format-detection" content="telephone=no">
+    <!-- remove for production-->
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" media="all" href="css/app.css"><!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body class="container-body">
     <header class="header container-header">
-        <div class="container container-wrap">
-            <div class="navigation">
-                <span class="navigation__title">campaigns</span>
-                <a href="login.html" class="navigation__back">
-                    <span>login</span>
-                </a>
-            </div>
-            <div class="logo">
-                <h1 class="logo__title-header">content brain </h1>
-                <img src="img/logo.png" alt="Logo" class="logo__img">
-            </div>
-            <div class="setting">
-                <a href="accounsettings.html">account settings</a>
-            </div>
+      <div class="container container-wrap">
+        <div class="navigation"><span class="navigation__title">account settings</span><a class="navigation__back" href="#"><span>login</span></a></div>
+        <div class="logo">
+          <h1 class="logo__title-header">content brain</h1><img class="logo__img" src="img/logo.png" alt="Logo">
         </div>
+        <div class="setting"><a href="#">account settings</a></div>
+      </div>
     </header>
     <main class="container campaigns">
-        <div class="container-coll">
-            <h2 class="campaigns__tittle">projects</h2>
-            <div class="projects container-wrap">
-                <a href="newproject.html" class="projects__item projects__new">
-                    <div class="pseudo pseudo-plus">New Project</div>
-                </a>
-                <a href="dashboard.html" class="projects__item">
-                    <span class="projects__item-tittle">Project #1</span>
-                    <button class="pseudo-delete projects__item-delete"></button></br>
-                    <span class="projects__item-descr">3 Topic</span>
-                </a>
-                <a href="dashboard.html" class="projects__item">
-                    <span class="projects__item-tittle">Project #1</span>
-                    <button class="pseudo-delete projects__item-delete"></button></br>
-                    <span class="projects__item-descr">5 Topic</span>
-                </a>
-            </div>
-        </div>
+      <div class="container-coll">
+        <h2 class="campaigns__tittlevprojects"></h2>
+        <div class="projects container-wrap"><a class="projects__item projects__new" href="newproject.html">
+            <div class="pseudo pseudo-plus">New Project</div></a><a class="projects__item" href="dashboard.html"><span class="projects__item-tittle">Project #1</span>
+            <button class="pseudo-delete projects__item-delete"></br></button><span class="projects__item-descr">3 Topic</span></a><a class="projects__item" href="dashboard.html"><span class="projects__item-tittle">Project #1</span>
+            <button class="pseudo-delete projects__item-delete"></br></button><span class="projects__item-descr">5 Topic</span></a></div>
+      </div>
     </main>
     <footer>
-        <div class="container-footer">
-            <div class="logo container-coll">
-                <span class="copyright">© 2017 «CONTENT BRAIN» All rights reserved</span>
-            </div>
-        </div>
+      <div class="container-footer">
+        <div class="logo container-coll"><span class="copyright">© 2017 «CONTENT BRAIN» All rights reserved</span></div>
+      </div>
     </footer>
-</body>
-
+    <script src="js/vendor.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>

@@ -1,0 +1,28 @@
+---
+title: Account Settings - ContentBrain
+bodyClass: container-body
+backNav: new project
+---
+extends shared/_layout
+block content
+
+  main.container.project
+      .container-coll
+          h2.project__tittle my-first-projects
+          .topics.container-wrap
+              a(href="coretopic.html").topics__item.topics__new
+                  .pseudo.pseudo-plus New Topic
+              a(href="approvecontent2.html").topics__item
+                  span.topics__item-tittle Topic #1
+                  button.pseudo-delete.projects__item-delete </br>
+                  .topics__content
+                      span.topics__content-item 3 Done
+                      span.topics__content-item 1 In Progress
+                      span.topics__content-item 4 Not Started
+              a(href="approvecontent2.html").topics__item
+                  span.topics__item-tittle Topic #1
+                  button.pseudo-delete.projects__item-delete </br>
+                  .topics__content
+                      span.topics__content-item 1 Done
+                      span.topics__content-item 1 In Progress
+                      span.topics__content-item 4 Not Started

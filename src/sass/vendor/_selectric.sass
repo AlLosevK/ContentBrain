@@ -1,0 +1,200 @@
+/*======================================
+ *  Selectric v1.13.0
+ *======================================
+
+.selectric-wrapper
+  position: relative
+  cursor: pointer
+  margin-right: 15px
+  margin-left: 15px
+  width: 24%
+  &:last-child
+    margin-right: 0
+
+.selectric-responsive
+  width: 100%
+
+.selectric
+  border: 1px solid transparentize(#ccc, 0.85)
+  border-radius: 4px
+  background: #fff
+  position: relative
+  overflow: hidden
+  transition: all $transitSpeed $ease
+  .label
+    display: block
+    white-space: nowrap
+    overflow: hidden
+    text-overflow: ellipsis
+    margin: 0 45px 0 22px
+    font-size: 16px
+    height: 40px
+    line-height: 40px
+    font-family: 'Futura'
+    color: transparentize(#353535, 0.5)
+    -webkit-user-select: none
+    -moz-user-select: none
+    -ms-user-select: none
+    user-select: none
+  .button
+    display: block
+    position: absolute
+    right: 15px
+    top: 0
+    width: 40px
+    height: 40px
+    line-height: 40px
+    background-color: transparent
+    color: transparent
+    text-align: center
+    background-repeat: no-repeat
+    background-image: url(../../img/arrow-right-b.svg)
+    background-size: 25%
+    transform: rotate(90deg)
+    background-position: 50% 0
+    
+
+.selectric-focus .selectric
+  border-color: transparentize(#ccc, 0.5)
+
+.selectric-hover .selectric
+  border-color: transparentize(#ccc, 0.5)
+
+.selectric-open
+  z-index: 9999
+  .selectric
+    border-color: transparentize(#ccc, 0.5)
+  .selectric-items
+    display: block
+
+.selectric-disabled
+  filter: alpha(opacity = 50)
+  opacity: 0.5
+  cursor: default
+  -webkit-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+
+.selectric-hide-select
+  position: relative
+  overflow: hidden
+  width: 0
+  height: 0
+  select
+    position: absolute
+    left: -100%
+  &.selectric-is-native
+    position: absolute
+    width: 100%
+    height: 100%
+    z-index: 10
+    select
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+      height: 100%
+      width: 100%
+      border: none
+      z-index: 1
+      box-sizing: border-box
+      opacity: 0
+
+.selectric-input
+  position: absolute !important
+  top: 0 !important
+  left: 0 !important
+  overflow: hidden !important
+  clip: rect(0, 0, 0, 0) !important
+  margin: 0 !important
+  padding: 0 !important
+  width: 1px !important
+  height: 1px !important
+  outline: none !important
+  border: none !important
+  *font: 0/0 a !important
+  background: none !important
+
+.selectric-temp-show
+  position: absolute !important
+  visibility: hidden !important
+  display: block !important
+
+/* Items box
+
+.selectric-items
+  display: none
+  position: absolute
+  top: 130%
+  left: 0
+  background: #fff
+  box-shadow: 0 0 20px rgba(0,0,0,0.2)
+  border: 0
+  z-index: -1
+  .selectric-scroll
+    height: 100%
+    overflow: auto
+
+.selectric-above .selectric-items
+  top: auto
+  bottom: 100%
+
+.selectric-items
+  border-radius: 4px
+  border: 1px solid transparentize(#ccc, 0.85)
+  
+  ul
+    list-style: none
+    padding: 0
+    margin: 0
+    font-size: 12px
+    line-height: 20px
+    min-height: 20px
+  li
+    list-style: none
+    padding: 0
+    margin: 0
+    font-size: 16px
+    line-height: 20px
+    min-height: 20px
+    display: block
+    padding: 10px 22px
+    font-family: 'Futura'
+    color: #353535
+    border-bottom: 1px solid transparentize(#ccc, 0.85)
+    cursor: pointer
+    transition: all $transitSpeed $ease
+    &:last-child
+      border-bottom: 0
+    &.selected
+      color: transparentize(#353535, 0.5)
+      background-color: #fff
+    &.highlighted
+      background: #fff
+    &:hover
+      color: transparentize(#353535, 0.5)
+  .disabled
+    cursor: default !important
+    background: none !important
+    color: #BDBDBD !important
+    -webkit-user-select: none
+    -moz-user-select: none
+    -ms-user-select: none
+    user-select: none
+  .selectric-group
+    .selectric-group-label
+      font-weight: bold
+      padding-left: 10px
+      cursor: default
+      -webkit-user-select: none
+      -moz-user-select: none
+      -ms-user-select: none
+      user-select: none
+      background: none
+      color: #444
+    &.disabled li
+      filter: alpha(opacity = 100)
+      opacity: 1
+    li
+      padding-left: 25px

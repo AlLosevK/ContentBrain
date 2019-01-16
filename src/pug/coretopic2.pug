@@ -1,0 +1,81 @@
+---
+title: Account Settings - ContentBrain
+bodyClass: container-body
+backNav: core topic
+---
+extends shared/_layout
+block content
+
+  main.container.newtopics2
+      .container-coll
+          h2.newtopics2__tittle.main__tittle my-first-project
+          span.newtopics2__descr.main__descr A core topic for my first project
+          ul.set__navigation.container-wrap
+              li.set__navigation-item
+                a.active.pseudo.pseudo-dot(href="#") Metrics
+              li.set__navigation-item
+                a(href="coretopic3.html") Content Types
+              li.set__navigation-item
+                a(href="approvecontent.html") Titles
+              li.set__navigation-item
+                a(href="approvecontent2.html") Research
+          table.topictable
+              thead.topictable__head
+                  tr.topictable__head-row
+                      td
+                          |
+                          subtopic
+                      td
+                          |
+                          traffic
+                          button.pseudo-info.topictable__head-info
+                          p.topictable__head-descr.traffic The number of times this keyword has been searched for.
+                      td
+                          |
+                          IAAT
+                          button.pseudo-info.topictable__head-info
+                          p.topictable__head-descr.iaat The number of pages where the keyword is in both the title and the content of a backlink.
+                      td
+                          |
+                          competition
+                          button.pseudo-info.topictable__head-info
+                          p.topictable__head-descr.competition The higher this number, the more competition for this keyword.
+                      td
+                          |
+                          KEI
+                          button.pseudo-info.topictable__head-info
+                          p.topictable__head-descr.kei Keyword Effectiveness Index goes up when the popularity icreases, but down when it becomes more competitive.
+                      td select
+              tbody.topictable__body
+                  tr.topictable__body-row
+                      td Subtopic #1
+                      td 3
+                      td 1387
+                      td High
+                      td 7
+                      td
+                          input(type="checkbox" id="topictable__checkbox1").topictable__checkbox
+                          label(for="topictable__checkbox1").topictable__checkbox-custom
+                  tr.topictable__body-row
+                      td Subtopic #2
+                      td 1
+                      td 224
+                      td Low
+                      td 2
+                      td
+                          input(type="checkbox" id="topictable__checkbox2").topictable__checkbox
+                          label(for="topictable__checkbox2").topictable__checkbox-custom
+                  tr.topictable__body-row
+                      td Subtopic #3
+                      td 5
+                      td 2673
+                      td Medium
+                      td 2
+                      td
+                          input(type="checkbox" id="topictable__checkbox3").topictable__checkbox
+                          label(for="topictable__checkbox3").topictable__checkbox-custom
+      .container-wrap.newtopics2__navigation.newtopics2__row
+          a(href="coretopic.html").newtopics2__navigation-item
+              span.newtopics2__navigation-back try new topic
+          a(href="coretopic3.html").newtopics2__navigation-item
+              span.newtopics2__navigation-next next

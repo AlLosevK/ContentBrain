@@ -1,0 +1,22 @@
+{
+  "name": "gulp-tpl",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Kirill Gorin"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "slick-carousel": "^1.7.1",
+    "svg4everybody": "^2.1.9",
+    "viewport-units-buggyfill": "^0.6.2"
+  }
+}

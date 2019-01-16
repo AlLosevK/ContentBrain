@@ -1,0 +1,22 @@
+---
+title: Account Settings - ContentBrain
+bodyClass: container-body
+backNav: login
+---
+extends shared/_layout
+block content
+
+  main.container.campaigns
+      .container-coll
+          h2.campaigns__tittlevprojects
+          .projects.container-wrap
+              a(href="newproject.html").projects__item.projects__new
+                  .pseudo.pseudo-plus New Project
+              a(href="dashboard.html").projects__item
+                  span.projects__item-tittle Project #1
+                  button.pseudo-delete.projects__item-delete </br>
+                  span.projects__item-descr 3 Topic
+              a(href="dashboard.html").projects__item
+                  span.projects__item-tittle Project #1
+                  button.pseudo-delete.projects__item-delete </br>
+                  span.projects__item-descr 5 Topic

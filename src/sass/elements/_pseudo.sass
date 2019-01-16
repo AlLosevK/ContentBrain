@@ -1,0 +1,87 @@
+.pseudo
+    display: block
+    width: 100%
+    position: relative
+    &-email
+        &:before
+            content: ''
+            position: absolute
+            top: 30%
+            left: 9%
+            transform: translate(-50%, 0)
+            background-repeat: no-repeat
+            background-image: url('../img/email.png')
+            width: 26px
+            height: 16px
+            z-index: 1
+            background-size: 26px 16px
+    &-pass
+        &:before
+            content: ''
+            position: absolute
+            top: 22%
+            left: 9%
+            transform: translate(-50%, 0)
+            background-repeat: no-repeat
+            background-image: url('../img/lock.png')
+            width: 15px
+            height: 24px
+            z-index: 50
+            background-size: 15px 24px
+    &-plus
+        &:before
+            content: ''
+            position: absolute
+            top: -140%
+            left: 50%
+            transform: translate(-50%, 0)
+            background-repeat: no-repeat
+            background-image: url('../img/new_project.png')
+            width: 34px
+            height: 34px
+            z-index: 50
+            background-size: 1em 1em
+    &-delete
+        border: none
+        background-color: transparent
+        position: absolute
+        top: 5px
+        right: 5px
+        width: 2em
+        height: 2em
+        border-radius: 0 55% 0 35%
+        z-index: 50
+        background-image: url('../img/delete-active.svg')
+        background-repeat: no-repeat
+        background-position: 50% 50%
+        background-size: 1.5em
+        &:hover
+            background-image: url('../img/delete.svg')
+            background-repeat: no-repeat
+            background-position: 50% 50%
+            background-size: 1.5em
+    &-info
+        border: none
+        background-color: transparent
+        position: absolute
+        top: 0.78vw
+        right: 0.55vw
+        width: 2em
+        height: 2em
+        z-index: 50
+        background-image: url('../img/information-button.svg')
+        background-repeat: no-repeat
+        background-position: 50% 50%
+        background-size: 1em
+    &-dot
+        &:before
+            content: ''
+            position: absolute
+            top: 25%
+            right: 5%
+            transform: translate(-50%, 0)
+            background-repeat: no-repeat
+            background-image: url('../img/dot.svg')
+            width: 1em
+            height: 1em
+            background-size: 1em 1em

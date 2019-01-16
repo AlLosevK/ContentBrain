@@ -1,53 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Login - ContentBrain</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
-</head>
-
-<body class="container-body">
+  <head>
+    <!-- MADE WITH LOVE BY <> KHMELEVSKOY & ASSOCIATES </> www.khmelevskoy.co-->
+    <meta charset="utf-8">
+    <title>Account Settings - ContentBrain</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fff">
+    <meta name="format-detection" content="telephone=no">
+    <!-- remove for production-->
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" media="all" href="css/app.css"><!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body class="container-body">
     <header class="header container-header">
-        <div class="container container-wrap">
-            <div class="navigation">
-                <span class="navigation__title">login</span>
-            </div>
-            <div class="logo">
-                <h1 class="logo__title-header">content brain </h1>
-                <img src="img/logo.png" alt="Logo" class="logo__img">
-            </div>
-            <div class="setting setting-request">
-                <span>request access</span>
-            </div>
+      <div class="container container-wrap">
+        <div class="navigation"><span class="navigation__title">account settings</span><a class="navigation__back" href="#"><span>new project</span></a></div>
+        <div class="logo">
+          <h1 class="logo__title-header">content brain</h1><img class="logo__img" src="img/logo.png" alt="Logo">
         </div>
+        <div class="setting"><a href="#">account settings</a></div>
+      </div>
     </header>
     <main class="container entry">
-        <div class="container-coll">
-            <h2 class="main__tittle">welcome</h2>
-            <form action="#" class="login container-coll" name="login">
-                <div class="pseudo pseudo-email">
-                    <input type="email" class="login__email login__item" placeholder="email" autofocus required>
-                </div>
-                <div class="pseudo pseudo-pass">
-                    <input type="password" class="login__pass login__item" placeholder="password" required>
-                </div>
-                <button type="submit" class="login__check login__item">GO</button>
-                <a href="campaigns.html" class="demo__link">login like guest</a>
-            </form>
-        </div>
+      <div class="container-coll">
+        <h2 class="main__tittle">welcome</h2>
+        <form class="login container-coll" action="#" name="login">
+          <div class="pseudo pseudo-email">
+            <input class="login__email login__item" type="email" placeholder="email" autofocus required>
+          </div>
+          <div class="pseudo pseudo-pass">
+            <input class="login__pass login__item" type="password" placeholder="password" required>
+          </div>
+          <button class="login__check login__item" type="submit">GO</button>
+        </form>
+      </div>
     </main>
     <footer>
-        <div class="container-footer">
-            <div class="logo container-coll">
-                <span class="copyright">© 2017 «CONTENT BRAIN» All rights reserved</span>
-            </div>
-        </div>
+      <div class="container-footer">
+        <div class="logo container-coll"><span class="copyright">© 2017 «CONTENT BRAIN» All rights reserved</span></div>
+      </div>
     </footer>
-</body>
-
+    <script src="js/vendor.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>

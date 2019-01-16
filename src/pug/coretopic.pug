@@ -1,0 +1,14 @@
+---
+title: Account Settings - ContentBrain
+bodyClass: container-body
+backNav: new project
+---
+extends shared/_layout
+block content
+
+  main.container.newtopics
+      .container-coll
+          h2.newtopics__tittle.main__tittle my-first-project
+          form(action="#" name="topic_name").newtopic.container-coll
+              input(type="text" placeholder="what's your core topic" autofocus required).newtopic__name.newtopic__item
+              a(href="coretopic2.html").newtopic__check.newtopic__item GO

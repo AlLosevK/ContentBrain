@@ -1,0 +1,23 @@
+---
+title: Account Settings - ContentBrain
+bodyClass: container-body
+backNav: home
+---
+extends shared/_layout
+block content
+
+  main.container.accinfo
+      .container-wrap.account
+          .container-coll.avatar
+              .avatar__img
+                  img(src="img/avatar.png" alt="Avatar")
+              .avatar__add
+                  input.avatar__add-fake#avatar__add-fake(type="file")
+                  label.avatar__add-file(for="avatar__add-fake")
+                      span change image
+          .container-coll.info
+              form.descr(action="")
+                  input.descr__name.descr__item(type="text" placeholder="john smith")
+                  input.descr__email.descr__item(type="email" placeholder="client@mail.com")
+                  input.descr__pass.descr__item(type="password" value="00000000000")
+                  input.descr__url.descr__item(type="text" placeholder="add url")
