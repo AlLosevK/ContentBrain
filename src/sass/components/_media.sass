@@ -29,6 +29,10 @@
       &__item
         & span
           font-size: 13px
+  .newtopic
+      width: 70%
+      &__item
+          padding: 2em
 +r($tablet)
   .header
     &__nav
@@ -44,6 +48,32 @@
         width: 51%
         & span
           font-size: 10px
+  .navigation
+    &__title
+      font-size: 3.25vw
+    &__back
+      font-size: 1.5vw
+      & span
+        &:before
+          left: -20%
+          width: 2.6vw
+          height: 1.6vw
+          background-size: 2vw 1.3vw
+  .logo
+    &__title
+      &-header
+        font-size: 2.3em
+    &__img
+      height: 2.8vw
+      width: 4vw
+  .setting
+    font-size: 2vw
+    & a
+      &:before
+        top: 0
+        width: 2.2vw
+        height: 2.2vw
+        background-size: 2.2vw 2.2vw
   .portfolio
     &__row
       flex-wrap: wrap
@@ -76,6 +106,63 @@
       flex-wrap: wrap
     &__title
       width: 100%
+  .login
+    width: 300px
+    &__item
+      padding: 0.95vw 0.35vw
+      font-size: 3vw
+  .pseudo
+    &-email
+      &:before
+        top: 1.6vw
+        width: 16px
+        height: 10px
+        background-size: 16px 10px
+    &-pass
+      &:before
+        top: 1.1vw
+        width: 10px
+        height: 14px
+        background-size: 10px 14px
+  .login
+    &__check
+      & span
+        &::before
+          top: .8vw
+          width: 16px
+          height: 10px
+          background-size: 16px 10px
+  .topictable
+    &__checkbox
+      display: none
+      &:checked + label:before
+        background-color: $companyColor
+        background-image: url('../img/checkmark.png')
+        background-repeat: no-repeat
+        background-size: 70%
+        background-position: 35% 45%
+      &-custom
+        padding-left: 33px
+        position: relative
+        &:before
+          width: 2vw
+          height: 2vw
+  .contenttype
+    &__checkbox
+      &:checked + label:before
+        background-color: $companyColor
+        background-image: url('../img/checkmark.png')
+        background-repeat: no-repeat
+        background-size: 70%
+        background-position: 45% 55%
+      &-custom
+        padding-left: 15px
+        font-size: 2vw
+        position: relative
+        &:before
+          top: 50%
+          width: 2vw
+          height: 2vw
   .directions
     &__item
       padding: 30px

@@ -26,22 +26,23 @@
         font-size: 0.91vw
         color: #d68dff
         text-transform: uppercase
-        position: relative
         margin: 0 0 0 1.8vw
         &:hover
             text-decoration: none
             color: #d68dff
-        &:before
-            content: ''
-            position: absolute
-            top: 0.25vw
-            left: -0.6vw
-            transform: translate(-50%, 0)
-            background-repeat: no-repeat
-            background-image: url('../img/left-arrow.svg')
-            width: 2.1vw
-            height: 1.1vw
-            background-size: 1.5vw 0.8vw
+        & span
+            position: relative
+            &:before
+                content: ''
+                position: absolute
+                top: 0
+                left: -10%
+                transform: translate(-50%, 0)
+                background-repeat: no-repeat
+                background-image: url('../img/left-arrow.svg')
+                width: 2.1vw
+                height: 1.1vw
+                background-size: 1.5vw 0.8vw
 
 .logo
     background-color: transparent
@@ -86,8 +87,8 @@
         &:before
             content: ''
             position: absolute
-            top: 0
-            left: -0.7vw
+            top: -3px
+            left: -10%
             transform: translate(-50%, 0)
             background-repeat: no-repeat
             background-image: url('../img/setting.svg')
