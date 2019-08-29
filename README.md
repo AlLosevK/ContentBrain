@@ -4,6 +4,5 @@
 ### Install ###
 
 * git clone
-* yarn install
-* bower install
-* gulp
+* npm install
+* gulp/gulp production
