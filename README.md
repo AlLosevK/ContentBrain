@@ -1,8 +1,8 @@
 # README #
-
+Tools: Sass, Pug, JS, Gulp.
 
 ### Install ###
 
-* git clone
-* npm install
-* gulp/gulp production
+* Git clone
+* NPM Install
+* Gulp/Gulp production
