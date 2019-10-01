@@ -12,7 +12,7 @@
   "git": {
     "scripts": {}
   },
-  "author": "Kirill Gorin",
+  "author": "Aleksandr Losev",
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^7.1.2",
